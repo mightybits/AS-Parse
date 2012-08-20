@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.mightybits.asparse.ASParse"/>
+    <classEntry path="com.mightybits.asparse.net.ParseObject"/>
+    <classEntry path="com.mightybits.asparse.net.ServiceCall"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
