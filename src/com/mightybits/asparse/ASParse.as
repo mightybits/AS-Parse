@@ -31,10 +31,6 @@ package com.mightybits.asparse
 		public static const PARSE_API_PUSH:String = "https://api.parse.com/1/push";
 		
 		// Signals
-		
-		/**
-		 *	Dispatches a result of type Number.
-		 */	
 		public var onCount:Signal = new Signal(Number);
 		public var onCreate:Signal = new Signal(ParseObject);
 		public var onRead:Signal = new Signal(Object);
@@ -43,10 +39,6 @@ package com.mightybits.asparse
 		public var onUpdate:Signal = new Signal(Object);
 		
 		public var onServiceFail:Signal = new Signal();
-		
-		
-//		private var hold:Object;
-//		private var _loader:URLLoader;
 		
 		// headers
 		private var app_key:String;
@@ -64,7 +56,6 @@ package com.mightybits.asparse
 		
 		//  PUBLIC FUNCTIONS
 		// -----------------------------------------------------------------//
-		
 		
 		public function count( ClassRef:Class, where:String = null, count:Number = 1, limit:Number = 0 ):void
 		{	
